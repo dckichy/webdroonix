@@ -1,0 +1,87 @@
+/* Ogólne stylizacje */
+body {
+    background-color: #fffbe0; /* Jasnożółte tło */
+    color: #333; /* Ciemnoszary tekst */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nagłówek */
+.tutorial-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00; /* Żółty nagłówek */
+    color: #333;
+}
+
+.tutorial-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Sekcja treści */
+.tutorial-content {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.tutorial-content ol li strong {
+    color: #ffcc00; /* Żółte nagłówki list */
+}
+
+/* Przyciski */
+.small-button,
+.return-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Żółty przycisk */
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.small-button:hover,
+.return-button:hover {
+    background-color: #e6b800; /* Ciemniejszy żółty po najechaniu */
+}
+
+/* Przyciski na dole */
+.return-button {
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+}
+/* Stylizacja dla przycisków w nagłówku */
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.small-button {
+    display: inline-block;
+    background-color: #ffffff; /* Białe tło */
+    color: #1e88e5; /* Niebieski tekst */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px; /* Zaokrąglone rogi */
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Lekki cień */
+}
+
+.small-button:hover {
+    background-color: #bbdefb; /* Jasnoniebieskie tło przy najechaniu */
+    color: #0d47a1; /* Ciemniejszy niebieski tekst */
+    transform: translateY(-3px); /* Efekt podniesienia */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Mocniejszy cień */
+}

@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffde7; /* Jasnożółte tło */
+    color: #b71c1c; /* Czerwony tekst */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f44336; /* Czerwony nagłówek */
+    color: #ffeb3b; /* Żółty tekst */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffeb3b; /* Żółty tekst */
+}
+
+header .back-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffeb3b; /* Żółty przycisk */
+    color: #f44336; /* Czerwony tekst */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .back-button:hover {
+    background-color: #fff59d; /* Jaśniejszy żółty */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #b71c1c; /* Czerwony tekst */
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+code {
+    background-color: #ffccbc; /* Jasnoczerwone tło dla kodu */
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #b71c1c; /* Czerwony tekst */
+}
+
+footer {
+    background-color: #f44336;
+    color: #ffeb3b;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Dodano odstęp, aby tekst nie wchodził za linię */
+}

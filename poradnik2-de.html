@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitfaden 2 - Arbeiten mit künstlicher Intelligenz</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Wie arbeitet man mit künstlicher Intelligenz?</h1>
+            <nav>
+                <ul class="language-menu">
+                    <li><a href="index-de.html" class="back-button">Startseite</a></li>
+                    <li><a href="poradniki-de.html" class="back-button">Leitfäden</a></li>
+                    <li><a href="poradnik2-pl.html" class="back-button">Polski</a></li>
+                    <li><a href="poradnik2-en.html" class="back-button">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Wie arbeitet man mit künstlicher Intelligenz?</h2>
+            <p>Künstliche Intelligenz (KI) ist ein Bereich der Informatik, der sich mit der Entwicklung von Systemen beschäftigt, die Aufgaben ausführen können, die normalerweise menschliche Intelligenz erfordern. Hier sind einige Schritte, um mit KI zu beginnen:</p>
+            <ol>
+                <li>
+                    <strong>Grundlagen verstehen:</strong>
+                    <p>Erfahren Sie, was künstliche Intelligenz ist und welche Fähigkeiten sie hat. Beispiele für Anwendungen sind Bilderkennung, Verarbeitung natürlicher Sprache und Prozessautomatisierung.</p>
+                </li>
+                <li>
+                    <strong>Die richtigen Werkzeuge wählen:</strong>
+                    <p>Es gibt viele Werkzeuge und Plattformen für die Arbeit mit KI, wie TensorFlow, PyTorch oder OpenAI API. Wählen Sie das Werkzeug, das zu Ihrem Projekt passt.</p>
+                </li>
+                <li>
+                    <strong>Daten vorbereiten:</strong>
+                    <p>Daten sind der Schlüssel zur KI. Stellen Sie sicher, dass sie von hoher Qualität, gut gekennzeichnet und ordnungsgemäß verarbeitet sind.</p>
+                </li>
+                <li>
+                    <strong>Modelle erstellen:</strong>
+                    <p>Verwenden Sie das ausgewählte Werkzeug, um ein KI-Modell zu erstellen. Zum Beispiel können Sie in Python ein einfaches maschinelles Lernmodell erstellen:</p>
+                    <pre>
+from sklearn.linear_model import LinearRegression
+
+# Trainingsdaten
+X = [[1], [2], [3]]
+y = [2, 4, 6]
+
+# Modell erstellen und trainieren
+model = LinearRegression()
+model.fit(X, y)
+
+# Vorhersagen treffen
+predictions = model.predict([[4]])
+print(predictions)
+                    </pre>
+                </li>
+                <li>
+                    <strong>Testen und verbessern:</strong>
+                    <p>Testen Sie Ihr Modell und verbessern Sie es basierend auf den Ergebnissen. Experimentieren Sie mit verschiedenen Algorithmen und Parametern, um eine bessere Leistung zu erzielen.</p>
+                </li>
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WebDroonix. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>

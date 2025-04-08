@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a237e; /* Granatowe tło */
+    color: #ffffff; /* Biały tekst */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3949ab; /* Jasny granatowy nagłówek */
+    color: #ffffff; /* Biały tekst */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff; /* Biały tekst */
+}
+
+header .back-button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffffff; /* Biały przycisk */
+    color: #3949ab; /* Granatowy tekst */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .back-button:hover {
+    background-color: #e8eaf6; /* Jasny biały */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #ffffff; /* Biały tekst */
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+code {
+    background-color: #e8eaf6; /* Jasne tło dla kodu */
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #1a237e; /* Granatowy tekst */
+}
+
+footer {
+    background-color: #3949ab;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Dodano odstęp, aby tekst nie wchodził za linię */
+}
+.header-buttons {
+    display: flex;
+    gap: 10px; /* Odstęp między przyciskami */
+    align-items: center;
+}
+
+.language-button {
+    display: inline-block;
+    background-color: #ffffff; /* Białe tło */
+    color: #1e88e5; /* Niebieski tekst */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.3s ease;
+}
+
+.language-button:hover {
+    background-color: #bbdefb; /* Jasnoniebieskie tło przy najechaniu */
+    transform: translateY(-3px); /* Lekki efekt podniesienia */
+}
